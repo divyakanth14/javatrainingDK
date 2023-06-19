@@ -11,7 +11,14 @@ class sintakai
 		char gender='M';
 		String status="Single";
 		boolean statement=true;
-		
+		byte cmpnyage=45;
+		boolean joincriteria=cmpnyage>age;
+		System.out.println(cmpnyage>age);
+		if(joincriteria=true){
+			System.out.println("candidate is a trusted knowlee");
+		}else{
+			System.out.println("Candidate is not a trusted knowlee");
+		}
 		System.out.println("My name is Divyakanth");
 		System.out.println("Age: "+age);
 		System.out.println("Gender: "+gender);
